@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@media (max-width: 500px) {
+  body {
+    background-image: url(/order-summary-component/img/pattern-background-mobile.svg);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-image: url(/order-summary-component/img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 360px;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container__img {
+  width: 100%;
+}
+
+.container .col {
+  padding: 20px 40px 20px;
+}
+
+.container h1 {
+  font-size: 26px;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.container p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  margin: 14px;
+}
+
+.container p span {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f5f7ff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.container .row img {
+  height: 36px;
+}
+
+.container .row p {
+  text-align: start;
+}
+
+.container .row a {
+  margin-left: auto;
+  font-size: 14px;
+  color: #3829e0;
+  font-weight: 700;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row a:active {
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+  text-decoration: none;
+}
+
+.container button {
+  display: block;
+  width: 100%;
+  line-height: 36px;
+  border-radius: 5px;
+  border: none;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.container .submit-btn {
+  background: #3829e0;
+  color: white;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .submit-btn:active {
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%);
+}
+
+.container .cancel-btn {
+  background: none;
+  color: rgba(0, 0, 0, 0.6);
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .cancel-btn:active {
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
